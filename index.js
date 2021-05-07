@@ -7,9 +7,6 @@ app.get("/", (req, res) => {
 app.get("/test-test", (req, res) => {
   res.send("this is a test page");
 });
-app.post("/test", (req, res) => {
-  res.send(req.body);
-});
 const port = 8000;
 
 app.listen(port, () => {
